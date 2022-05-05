@@ -11,6 +11,11 @@
 		F53C7FAD2823647400A91AA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53C7FAC2823647400A91AA7 /* ContentView.swift */; };
 		F53C7FAF2823647600A91AA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F53C7FAE2823647600A91AA7 /* Assets.xcassets */; };
 		F53C7FB22823647600A91AA7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F53C7FB12823647600A91AA7 /* Preview Assets.xcassets */; };
+		F53C7FB9282365AE00A91AA7 /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53C7FB8282365AE00A91AA7 /* Hero.swift */; };
+		F53C7FBB282365EB00A91AA7 /* DummyHeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53C7FBA282365EB00A91AA7 /* DummyHeroes.swift */; };
+		F53C7FC02823674700A91AA7 /* HeroDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53C7FBF2823674700A91AA7 /* HeroDetail.swift */; };
+		F53C7FC22823687B00A91AA7 /* HeroRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53C7FC12823687B00A91AA7 /* HeroRow.swift */; };
+		F53C7FC42823688900A91AA7 /* HeroList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53C7FC32823688900A91AA7 /* HeroList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		F53C7FAC2823647400A91AA7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F53C7FAE2823647600A91AA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F53C7FB12823647600A91AA7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F53C7FB8282365AE00A91AA7 /* Hero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
+		F53C7FBA282365EB00A91AA7 /* DummyHeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyHeroes.swift; sourceTree = "<group>"; };
+		F53C7FBF2823674700A91AA7 /* HeroDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroDetail.swift; sourceTree = "<group>"; };
+		F53C7FC12823687B00A91AA7 /* HeroRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroRow.swift; sourceTree = "<group>"; };
+		F53C7FC32823688900A91AA7 /* HeroList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +61,10 @@
 		F53C7FA92823647400A91AA7 /* SwiftUI basic example */ = {
 			isa = PBXGroup;
 			children = (
+				F53C7FBC2823660300A91AA7 /* Base */,
+				F53C7FBD2823660900A91AA7 /* Model */,
+				F53C7FBE2823660F00A91AA7 /* View */,
 				F53C7FAA2823647400A91AA7 /* SwiftUI_basic_exampleApp.swift */,
-				F53C7FAC2823647400A91AA7 /* ContentView.swift */,
 				F53C7FAE2823647600A91AA7 /* Assets.xcassets */,
 				F53C7FB02823647600A91AA7 /* Preview Content */,
 			);
@@ -65,6 +77,33 @@
 				F53C7FB12823647600A91AA7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F53C7FBC2823660300A91AA7 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		F53C7FBD2823660900A91AA7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F53C7FB8282365AE00A91AA7 /* Hero.swift */,
+				F53C7FBA282365EB00A91AA7 /* DummyHeroes.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F53C7FBE2823660F00A91AA7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F53C7FAC2823647400A91AA7 /* ContentView.swift */,
+				F53C7FBF2823674700A91AA7 /* HeroDetail.swift */,
+				F53C7FC12823687B00A91AA7 /* HeroRow.swift */,
+				F53C7FC32823688900A91AA7 /* HeroList.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +178,11 @@
 			files = (
 				F53C7FAD2823647400A91AA7 /* ContentView.swift in Sources */,
 				F53C7FAB2823647400A91AA7 /* SwiftUI_basic_exampleApp.swift in Sources */,
+				F53C7FC22823687B00A91AA7 /* HeroRow.swift in Sources */,
+				F53C7FBB282365EB00A91AA7 /* DummyHeroes.swift in Sources */,
+				F53C7FC42823688900A91AA7 /* HeroList.swift in Sources */,
+				F53C7FC02823674700A91AA7 /* HeroDetail.swift in Sources */,
+				F53C7FB9282365AE00A91AA7 /* Hero.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

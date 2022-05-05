@@ -8,10 +8,11 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        Text("Hello, world!")
-            .padding()
+  var body: some View {
+    NavigationView{
+      HeroList()
     }
+  }
 }
 
 struct ContentView_Previews: PreviewProvider {
